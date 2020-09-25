@@ -1,9 +1,23 @@
+//TOOLS
 
-:root{
-  --color-MainTitle: blue;
-}
 
-h1{
-  color: var(--color-MainTitle);
-  background-image: url("../images/three-sides.png");
-}
+//SETTINGS
+@import "settings/colors";
+@import "settings/font";
+@import "settings/dimensions";
+
+//GENERIC
+@import "normalize";
+@import "generic/reset";
+
+//ELEMENTS
+@import "elements/body";
+@import "elements/heading";
+@import "elements/images";
+@import "elements/link";
+@import "elements/wrapper";
+
+//COMPONENTS
+
+
+//UTILITIES
