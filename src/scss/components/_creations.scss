@@ -1,0 +1,43 @@
+.creations {
+  padding: var(--padding-thin);
+  margin: var(--margin-thin) auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+  img {
+    margin: var(--margin-large) 0;
+  }
+
+  .carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+
+    h3 {
+      margin: 0 var(--margin-thin);
+    }
+  }
+}
+
+@media screen and (min-width: $vw-medium){
+  .creations {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .carte {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: $vw-large){
+  .carte {
+    width: 33%;
+  }
+}

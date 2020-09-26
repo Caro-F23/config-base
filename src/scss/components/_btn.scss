@@ -1,0 +1,13 @@
+.btn {
+  background: var(--color-gradient);
+
+  &:link, &:visited, &:hover {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  }
+
+}
+
+.btn-medium {
+  padding: var(--padding-thin) var(--padding-large);
+}
