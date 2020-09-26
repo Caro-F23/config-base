@@ -2,8 +2,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Indiquer le titre de la page</title>
+    <title>Portfolio Louis Lajoie</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sarabun:wght@400;700&display=swap"
           rel="stylesheet">
@@ -13,69 +14,94 @@
 
 </head>
 <body>
-<header>
-    <div class="wrapper">
-        <img src="../images/svg/logo.svg" alt="Logo">
-        <h2>Louis Lajoie</h2>
+<header class="header-page">
+    <div class="wrapper flex">
+        <div class="logo">
+            <h2>
+                <img src="images/svg/logo.svg" alt="Logo">
+                Louis Lajoie
+            </h2>
+        </div>
 
-        <nav>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Réalisations</a></li>
-            <li><a href="#">Contact</a></li>
+
+        <nav class="nav-principal">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Réalisations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
     </div>
 </header>
 
 <section class="hero">
-    <article>
-        <h4>Intégrateur web</h4>
-        <h1>Louis Lajoie</h1>
-        <p>Vous cherche un spécialiste en développement web, en animation de page web et en référencement, vous l’avez
-            trouvé!</p>
-        <button><a href="#">Voir mes réalisations</a></button>
-    </article>
+    <div class="wrapper flex">
+        <article>
+            <h4>Intégrateur web</h4>
+            <h1>Louis Lajoie</h1>
+            <p>Vous cherche un spécialiste en développement web, en animation de page web et en référencement, vous
+                l’avez
+                trouvé!</p>
+            <a href="#" class="btn btn-medium">Voir mes réalisations</a>
+        </article>
 
-    <aside>
-        <img src="../images/louis-lajoie.png" alt="Louis Lajoie">
-    </aside>
+        <img class="photo" src="images/louis-lajoie.png" alt="Louis Lajoie">
+    </div>
 </section>
 
-<section class="competences">
-    <div class="wrapper">
+<section class="competences wrapper">
     <article class="carte">
-        <img src="../images/svg/Desktop.svg" alt="Desktop">
+        <header>
+            <img src="images/svg/Desktop.svg" alt="Desktop">
+        </header>
+
         <h3>Création de sites web</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, ut!</p>
     </article>
     <article class="carte">
-        <img src="../images/svg/cogs.svg" alt="Cogs">
+        <header>
+            <img src="images/svg/cogs.svg" alt="Cogs">
+        </header>
+
         <h3>Conception graphique</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam praesentium
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deserunt enim inventore laboriosam
+            praesentium
             quos reprehenderit soluta voluptatibus.</p>
     </article>
     <article class="carte">
-        <img src="../images/svg/camera.svg" alt="Camera">
+        <header>
+            <img src="images/svg/camera.svg" alt="Camera">
+        </header>
+
         <h3>Photographie</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis incidunt minus sequi totam. Autem!</p>
     </article>
     <article class="carte">
-        <img src="../images/svg/stats-dots.svg" alt="Stats-dots">
+        <header>
+            <img src="images/svg/stats-dots.svg" alt="Stats-dots">
+        </header>
+
         <h3>Référencement</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta fugiat magni qui.</p>
     </article>
     <article class="carte">
-        <img src="../images/svg/share.svg" alt="Share">
+        <header>
+            <img src="images/svg/share.svg" alt="Share">
+        </header>
+
         <h3>Médias sociaux</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate itaque odio optio porro vitae?
             Provident, quam?</p>
     </article>
     <article class="carte">
-        <img src="../images/svg/pencil.svg" alt="Pencil">
+        <header>
+            <img src="images/svg/pencil.svg" alt="Pencil">
+        </header>
+
         <h3>Illustrations</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo?</p>
     </article>
-    </div>
 </section>
 
 <footer>
